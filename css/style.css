@@ -1,0 +1,264 @@
+.logo{
+    border-radius: 50%;
+}
+
+.nav-item{
+    font-weight: bold;
+}
+.nav-item a{
+    color: brown !important;
+    letter-spacing: 1px;
+}
+.nav-item a:hover{
+    color:blueviolet !important;
+}
+:active,
+:hover,
+:focus{
+    outline: 0 !important;
+    outline-offset: 0;
+}
+.main-btn{
+    width: 120px;
+    height: 40px;
+    background-color: brown;
+    color: white;
+    font-weight:600;
+    border: none;
+    -webkit-transition: all .4s ease-out 0s;
+    -o-transition: all .4s ease-out 0s;
+    -moz-transition: all .4s ease-out 0s;
+    transition: all .4s ease-out 0s;
+}
+.main-btn:hover{
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid black;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    left:0;
+    z-index:1000;
+    -webkit-transition: all .03s ease-out;
+    transition: all 0.3 ease-out;
+}
+
+.navbar-toggler{
+    outline: unset;
+    border: none;
+    box-shadow: none;
+}
+
+.nav-link{
+    font-size: 0.9375rem;
+    
+}
+
+.top-banner{
+    width: 100%;
+    background: url('../images/brooke-lark-HlNcigvUi4Q-unsplash.jpg')no-repeat center;
+    background-size: cover;
+    padding: 16.875rem 0 9.375rem;
+}
+
+.counter-section{
+    background-color:brown;
+    padding:2.5rem 0;
+}
+.counter-section h2{
+    color: white;
+    text-transform: uppercase;
+}
+.bann-img h1{
+    color:brown;
+    -webkit-text-stroke: 1px #fff;
+    font-weight: bolder;
+}
+.bann-img p{
+    color:white;
+    font-weight: bolder;
+}
+
+
+.about-section{
+    background:white;
+
+}
+.about-section .card,
+.about-section .card img{
+    border-radius: 0.625rem;
+}
+
+.about-section .text-sec{
+    padding-left:2rem;
+}
+
+.food-type{
+    padding-top:3.25rem;
+}
+.food-type ul li{
+    font-size: 1rem;
+    color:brown;
+    line-height: 32px;
+    font-weight: 600;
+    position:relative;
+    margin-left:30px;
+}
+
+
+.food-type ul li::before{
+    position: absolute;
+    left:-2.1875rem;
+    color:brown;
+    font-size: 1.25rem;
+    font-family: "Font Awesome 5 Free";
+    content: '\f00c';
+    display: inline-block;
+    padding-right:3px ;
+    vertical-align: middle;
+    font-weight: 900;
+}
+
+.story-section{
+    width: 100%;
+    height: 25rem;
+    background:url('../images/brooke-lark-HlNcigvUi4Q-unsplash.jpg') no-repeat center;
+    background-size: cover;
+    text-align:center;
+}
+
+.story-section h1{
+    color: brown;
+}
+
+
+.explore-food .card{
+    border: none;
+    background-color: transparent;
+    border-radius: 0.9375rem;
+}
+
+.explore-food .card img{
+    border-radius: 0.9375rem;
+    object-fit: cover;
+}
+
+.explore-food .card span{
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:brown;
+    padding-bottom: 1rem;
+    border-bottom:0.0625rem solid whitesmoke;
+}
+.explore-food .card span del{
+    color:gray;
+    margin-left:0.5rem;
+}
+
+.testimonial-section{
+    background-color: brown;
+}
+
+.testimonial-section .carousel-item{
+    margin-top:3rem;
+    margin-bottom: 3rem;
+    padding:7rem 3.125rem;
+    background-color:white ;
+    border-radius: 1rem;
+    text-align:center;
+}
+
+.testimonial-section .carousel-item  img{
+    max-width: 5rem;
+    border-radius: 50%;
+    padding:0.3125rem;
+    margin:auto;
+
+}
+
+.testimonial-section .carousel-item  p{
+    font-size:1.3125rem;
+    line-height: 2.0625rem;
+    padding:0 11% 0.625rem;
+
+}
+
+.faq h4 span{
+    color:brown;
+    font: 1.8rem;
+    margin-right: 0.3125rem;
+}
+
+.book-food{
+    width: 100%;
+    background:url('../images/lily-banse--YHSwy6uqvk-unsplash.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 71.9125px;
+    padding:4.375rem;
+}
+
+.book-food h2{
+    color:whitesmoke;
+    font-weight: bold;
+    text-shadow: black;
+}
+
+.newslatter{
+    width: 100%;
+    margin:0 auto;
+}
+
+.newslatter .form-control{
+    height: 3.225rem;
+    padding:0 1.25rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    border:0.1875rem solid gray;
+    color:black;
+    font-weight: 700;
+}
+
+.newslatter .form-control:hover,
+.newslatter .form-control:focus{
+    outline: none;
+    box-shadow: none;
+    border-color: brown ;
+}
+
+
+.footer{
+    background-color: brown;
+}
+
+.footer .footer-link{
+    font-size:1rem;
+    color:antiquewhite;
+    padding:0 0 1.075rem;
+    text-decoration: none;
+    margin: 2rem;
+    font-weight: 600;
+}
+.footer .footer-link:hover{
+    color :black !important;
+}
+
+.footer a i{
+    font-size: 1.5rem;
+   color:whitesmoke;
+   padding:0.1rem; 
+}
+
+.footer a i:hover{
+    color:blueviolet 
+}
